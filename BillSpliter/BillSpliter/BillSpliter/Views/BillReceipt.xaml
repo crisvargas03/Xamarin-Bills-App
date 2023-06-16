@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BillSpliter.Views.BillReceipt"
+             NavigationPage.HasNavigationBar="False">
+    <ContentPage.Content>
+        <StackLayout>
+            <Frame BackgroundColor="MediumSeaGreen">
+                <Label Text="Recibo 💰" 
+                       FontAttributes="Bold" 
+                       TextColor="WhiteSmoke"
+                       HorizontalOptions="Center"
+                       FontSize="Large"/>
+            </Frame>
+            <StackLayout Spacing="20"
+                         VerticalOptions="CenterAndExpand"
+                         Margin="20, 0, 20, 0">
+                <Frame Margin="10"
+                       HasShadow="True"
+                       CornerRadius="10"
+                       HeightRequest="200"
+                       WidthRequest="50">
+                    <Image Source="https://i.ibb.co/rtBCXxg/carli-jeen-UWRql-Jc-DCXA-unsplash.jpg"
+                           WidthRequest="100"
+                           HeightRequest="200"
+                           Aspect="AspectFill"
+                           Margin="-20" />
+                </Frame>
+                <StackLayout Orientation="Horizontal">
+                    <Label Text="Monto de la Cuenta"
+                           HorizontalOptions="StartAndExpand"
+                           FontAttributes="Bold"
+                           TextColor="Black"/>
+                    <Label Text="0.00 RD$"
+                           HorizontalOptions="EndAndExpand"
+                           TextColor="Black"
+                           x:Name="lblAmount"/>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                    <Label Text="Monto de Propina"
+                           HorizontalOptions="StartAndExpand"
+                           FontAttributes="Bold"
+                           TextColor="Black"/>
+                    <Label Text="0.00 RD$"
+                           HorizontalOptions="EndAndExpand"
+                           TextColor="Black"
+                           x:Name="lblTip"/>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                    <Label Text="Total de la Cuenta"
+                           HorizontalOptions="StartAndExpand"
+                           FontAttributes="Bold"
+                           TextColor="Black"/>
+                    <Label Text="0.00 RD$"
+                           HorizontalOptions="EndAndExpand"
+                           TextColor="Black"
+                           x:Name="lblTotal"/>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                    <Label Text="Monto a pagar Cada Persona"
+                           HorizontalOptions="StartAndExpand"
+                           FontAttributes="Bold"
+                           TextColor="Black"/>
+                    <Label Text="0.00 RD$"
+                           HorizontalOptions="EndAndExpand"
+                           TextColor="Black"
+                           x:Name="lblPerPeople"/>
+                </StackLayout>
+            </StackLayout>
+            <StackLayout>
+                <Button Text="Compartir"
+                        BackgroundColor="SteelBlue"
+                        TextColor="WhiteSmoke"
+                        Margin="10"
+                        CornerRadius="10"
+                        x:Name="btnShare"
+                        Clicked="btnShare_Clicked"/>
+                <Button Text="Cancelar"
+                        BackgroundColor="Black"
+                        TextColor="WhiteSmoke"
+                        Margin="10"
+                        CornerRadius="10"
+                        x:Name="lblCancel"
+                        Clicked="lblCancel_Clicked"/>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,19 @@
+			App para calcular propinas
+----------------------------------------------------------
+Pantalla de propinas:
+3 inputs: 
+	monto de la cuenta
+	% de Propina
+	Cantida de personas a pagar
+
+2 botones:
+	Calcular propina
+	Limpiar / Cancelar
+
+----------------------------------------------------------
+Pantalla de Resumen:
+
+Mostrar el calculo de la informacion ingresada por el usuario
+
+OJO: ver si se puede hacer el feature de que se pueda hacer
+SS y enviarlo a algun sitio.

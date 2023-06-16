@@ -1,0 +1,17 @@
+C:\Users\civar\Desktop\homeworks\Desarrollo-Movil\FacturApp\BillSpliter\BillSpliter\BillSpliter\bin\Debug\netstandard2.0\BillSpliter.deps.json
+C:\Users\civar\Desktop\homeworks\Desarrollo-Movil\FacturApp\BillSpliter\BillSpliter\BillSpliter\bin\Debug\netstandard2.0\BillSpliter.dll
+C:\Users\civar\Desktop\homeworks\Desarrollo-Movil\FacturApp\BillSpliter\BillSpliter\BillSpliter\bin\Debug\netstandard2.0\ref\BillSpliter.dll
+C:\Users\civar\Desktop\homeworks\Desarrollo-Movil\FacturApp\BillSpliter\BillSpliter\BillSpliter\bin\Debug\netstandard2.0\BillSpliter.pdb
+C:\Users\civar\Desktop\homeworks\Desarrollo-Movil\FacturApp\BillSpliter\BillSpliter\BillSpliter\obj\Debug\netstandard2.0\BillSpliter.csproj.AssemblyReference.cache
+C:\Users\civar\Desktop\homeworks\Desarrollo-Movil\FacturApp\BillSpliter\BillSpliter\BillSpliter\obj\Debug\netstandard2.0\BillSpliter.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\civar\Desktop\homeworks\Desarrollo-Movil\FacturApp\BillSpliter\BillSpliter\BillSpliter\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\civar\Desktop\homeworks\Desarrollo-Movil\FacturApp\BillSpliter\BillSpliter\BillSpliter\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\civar\Desktop\homeworks\Desarrollo-Movil\FacturApp\BillSpliter\BillSpliter\BillSpliter\obj\Debug\netstandard2.0\BillSpliter.AssemblyInfoInputs.cache
+C:\Users\civar\Desktop\homeworks\Desarrollo-Movil\FacturApp\BillSpliter\BillSpliter\BillSpliter\obj\Debug\netstandard2.0\BillSpliter.AssemblyInfo.cs
+C:\Users\civar\Desktop\homeworks\Desarrollo-Movil\FacturApp\BillSpliter\BillSpliter\BillSpliter\obj\Debug\netstandard2.0\BillSpliter.csproj.CoreCompileInputs.cache
+C:\Users\civar\Desktop\homeworks\Desarrollo-Movil\FacturApp\BillSpliter\BillSpliter\BillSpliter\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\civar\Desktop\homeworks\Desarrollo-Movil\FacturApp\BillSpliter\BillSpliter\BillSpliter\obj\Debug\netstandard2.0\BillSpliter.dll
+C:\Users\civar\Desktop\homeworks\Desarrollo-Movil\FacturApp\BillSpliter\BillSpliter\BillSpliter\obj\Debug\netstandard2.0\refint\BillSpliter.dll
+C:\Users\civar\Desktop\homeworks\Desarrollo-Movil\FacturApp\BillSpliter\BillSpliter\BillSpliter\obj\Debug\netstandard2.0\BillSpliter.pdb
+C:\Users\civar\Desktop\homeworks\Desarrollo-Movil\FacturApp\BillSpliter\BillSpliter\BillSpliter\obj\Debug\netstandard2.0\Views\BillCalculator.xaml.g.cs
+C:\Users\civar\Desktop\homeworks\Desarrollo-Movil\FacturApp\BillSpliter\BillSpliter\BillSpliter\obj\Debug\netstandard2.0\Views\BillReceipt.xaml.g.cs

@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "1sqrqzhw9Hc3CJR7nvEsvHzXXWB3/qt4skjqflrUuT2Lm1kXh5+s39mPlMNr3TOKfP5EdHpFthXN+8dGR6ghAA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\civar\\Desktop\\homeworks\\Desarrollo-Movil\\FacturApp\\BillSpliter\\BillSpliter\\BillSpliter.iOS\\BillSpliter.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\civar\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\civar\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
+    "C:\\Users\\civar\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512"
+  ],
+  "logs": []
+}

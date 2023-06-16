@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BillSpliter.Views.BillCalculator"
+             NavigationPage.HasNavigationBar="False">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="WhiteSmoke">
+            <Frame BackgroundColor="MediumSeaGreen">
+                <Label Text="Calcular Propinas 💰" 
+                       FontAttributes="Bold" 
+                       TextColor="WhiteSmoke"
+                       HorizontalOptions="Center"
+                       FontSize="Large"/>
+            </Frame>
+            <StackLayout VerticalOptions="Center" Spacing="40" Margin="0, 30, 0, 0">
+                <StackLayout Orientation="Horizontal" 
+                         Margin="20, 0, 20, 0">
+                    <Label  Text="Monto de la Cuenta" 
+                            HorizontalOptions="StartAndExpand" 
+                            FontSize="Medium" 
+                            Margin="0, 10, 0, 0"
+                            TextColor="Black"
+                            FontAttributes="Bold"/>
+                    <Entry Keyboard="Numeric"
+                           HorizontalOptions="EndAndExpand" 
+                           WidthRequest="100"
+                           TextColor="Black"
+                           Text="0"
+                           x:Name="txtAmount"/>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal" 
+                         Margin="20, 0, 20, 0">
+                    <Label  Text="Porcentaje de Propina %" 
+                            HorizontalOptions="StartAndExpand" 
+                            FontSize="Medium" 
+                            Margin="0, 10, 0, 0"
+                            TextColor="Black"
+                            FontAttributes="Bold"/>
+                    <Entry Keyboard="Numeric"
+                           HorizontalOptions="EndAndExpand" 
+                           WidthRequest="100"
+                           TextColor="Black"
+                           Text="0"
+                           x:Name="txtTipPorcent"/>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal" 
+                         Margin="20, 0, 20, 0">
+                    <Label  Text="Cantidad de Personas" 
+                            HorizontalOptions="StartAndExpand" 
+                            FontSize="Medium" 
+                            Margin="0, 10, 0, 0"
+                            TextColor="Black"
+                            FontAttributes="Bold"/>
+                    <Entry Keyboard="Numeric"
+                           HorizontalOptions="EndAndExpand" 
+                           WidthRequest="100"
+                           TextColor="Black"
+                           Text="1"
+                           x:Name="txtPeople"/>
+                </StackLayout>
+            </StackLayout>
+            <Button Text="Calcular"
+                    TextTransform="None"
+                    BackgroundColor="MediumSeaGreen"
+                    CornerRadius="10"
+                    FontSize="Medium"
+                    FontAttributes="Bold"
+                    Margin="50, 40, 50, 0"
+                    TextColor="WhiteSmoke"
+                    x:Name="btnCalculate"
+                    Clicked="btnCalculate_Clicked"/>
+            
+            <Button Text="Cancelar"
+                    TextTransform="None"
+                    BackgroundColor="Black"
+                    CornerRadius="10"
+                    FontSize="Medium"
+                    FontAttributes="Bold"
+                    Margin="50, 10, 50, 0"
+                    TextColor="WhiteSmoke"
+                    x:Name="btnCancel"
+                    Clicked="btnCancel_Clicked"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
