@@ -6,5 +6,6 @@ Con esta app pude ver el funcionamiento de cosas que entendia eran mas complejas
 
 ## Capturas de pantalla
 
-![Carga inicia]()
-![Busqueda de Tarea]()
+![Alt text](image-4.png)
+![Alt text](image-5.png)
+![Alt text](image-3.png)
